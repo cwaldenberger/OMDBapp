@@ -24,13 +24,13 @@ function logMovieSearch(){
 
 
 function searchMovie(){
-    fetch(`https://www.omdbapi.com/?t=${movieSearch.value}&apikey=79987cd7`)
-    .then(res=> res.json())
-    .then( data =>{
-        console.log(data)
-        renderMovieInfo(data)
-        clearInput()
-    })
+    return fetch(`https://www.omdbapi.com/?t=${movieSearch.value}&apikey=79987cd7`)
+            .then(res=> res.json())
+            .then( data =>{
+                console.log(data)
+                renderMovieInfo(data)
+                clearInput()
+            })
 }
 
 
