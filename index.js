@@ -24,7 +24,7 @@ function logMovieSearch(){
 
 
 function searchMovie(){
-    fetch(`http://www.omdbapi.com/?t=${movieSearch.value}&apikey=79987cd7`)
+    fetch(`https://www.omdbapi.com/?t=${movieSearch.value}&apikey=79987cd7`)
     .then(res=> res.json())
     .then( data =>{
         console.log(data)
