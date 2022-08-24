@@ -112,7 +112,7 @@ function renderMovieInfo(data){
         resultDetailDiv.appendChild(watchlistAddDiv)
 
         const watchlistIcon = document.createElement('img')
-        watchlistIcon.src="/images/Icon-add-watchlist.png"
+        watchlistIcon.src="./images/Icon-add-watchlist.png"
         resultDetailDiv.appendChild(watchlistIcon) 
         
         const watchlistTxt = 'Watchlist'
