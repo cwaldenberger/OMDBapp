@@ -83,7 +83,7 @@ function renderMovieInfo(data){
         imgDiv.appendChild(posterElement)
         
         const ratingIcon = document.createElement('img')
-        ratingIcon.src="./images/icon-star.png"
+        ratingIcon.src="images/icon-star.png"
         resultRatingDiv.appendChild(ratingIcon) 
 
         const rating = data.imdbRating
@@ -112,7 +112,7 @@ function renderMovieInfo(data){
         resultDetailDiv.appendChild(watchlistAddDiv)
 
         const watchlistIcon = document.createElement('img')
-        watchlistIcon.src="./images/icon-add-watchlist.png"
+        watchlistIcon.src="images/icon-add-watchlist.png"
         resultDetailDiv.appendChild(watchlistIcon) 
         
         const watchlistTxt = 'Watchlist'
